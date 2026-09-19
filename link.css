@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/90278.jpg);
+}
+
+.container {
+  width: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar {
+  font-family: vt323;
+  letter-spacing: 2px;
+  background-color: rgb(217 217 217);
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  border: 3px outset;
+}
+
+.navbar a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: justify;
+  margin-left: 15px;
+}
+
+.icon-nav {
+  margin-right: 5px;
+  border: 3px outset;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.link-container {
+  background-color: rgb(217 217 217);
+  border: 3px outset;
+  font-size: 25px;
+  font-family: vt323, monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+.link-social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 50px;
+  justify-items: center;
+}
+
+.link-social a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
