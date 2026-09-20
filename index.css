@@ -106,6 +106,7 @@ main {
 .personal p {
   font-family: vt323;
   margin-right: 50px;
+  margin-top: 5px;
   text-align: justify;
   font-size: 22px;
 }
